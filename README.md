@@ -1,5 +1,5 @@
 [//]: # (Hello welcome to my project 
-  This project is already uploaded to my GitHub Account where I have deployed this project
+  This project is already uploaded to my GitHub Account, where I have deployed this project
   You can find the project here: https://github.com/Kumar-laxmi/Stock-Prediction-System-Application
 )
 
@@ -7,22 +7,22 @@
 
 ## Introduction
 <p>
-  Predicting stock prices is a cumbersome task as it does not follow any specific pattern. Changes in the stock prices are purely based on supply and demand during a period of time. In order to learn the specific characteristics of a stock price, we can use algorithm to identify these patterns through machine learning. One of the most well-known networks for series forecasting is LSTM (long short-term memory) which is a Recurrent Neural Network (RNN) that is able to remember information over a long period of time, thus making them extremely useful for predicting stock prices. RNNs are well-suited to time series data and they are able to process the data step-by-step, maintaining an internal state where they cache the information they have seen so far in a summarised version. The successful prediction of a stock's future price could yield a significant profit.
+  Predicting stock prices is a cumbersome task as it does not follow any specific pattern. Changes in the stock prices are purely based on supply and demand during a period of time. In order to learn the specific characteristics of a stock price, we can use an algorithm to identify these patterns through machine learning. One of the most well-known networks for series forecasting is LSTM (long short-term memory), which is a Recurrent Neural Network (RNN) that is able to remember information over a long period of time, thus making it extremely useful for predicting stock prices. RNNs are well-suited to time series data, and they are able to process the data step-by-step, maintaining an internal state where they cache the information they have seen so far in a summarised version. The successful prediction of a stock's future price could yield a significant profit.
 </p>
 
 ## Aim
 <p> 
-  To predict stock prices according to real-time data values fetched from API.
+  To predict stock prices according to real-time data values fetched from the API.
 </p>
 
 ## Objective
 <p>
-  The main objective of this project is to develop a web application that can predict stock price based on real-time data.  
+  The main objective of this project is to develop a web application that can predict stock prices based on real-time data.  
 </p>
 
 ## Project Scope
 <p>
-  The project has a wide scope, as it is not intended to a particular organization. This project is going to develop generic software, which can be applied by any businesses organization. Moreover it provides facility to its users. Also the software is going to provide a huge amount of summary data. 
+  The project has a wide scope, as it is not intended for a particular organization. This project is going to develop generic software, which can be applied by any businesses organization. Moreover it provides a facility to its users. Also, the software is going to provide a huge amount of summary data. 
 </p>
   
 ## Technology Used:
@@ -31,12 +31,12 @@
   - ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
   - ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
   - ![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
-- #### FrameWork:
+- #### Framework:
   - ![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
   - ![DJANGO](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
 
 - #### Deployment:
-  - Click to see deployement (NOTE: Deployement not working): <a href="https://stock-prediction-system.herokuapp.com/">![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)</a>
+  - Click to see deployment (NOTE: Deployment not working): <a href="https://stock-prediction-system.herokuapp.com/">![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)</a>
 - #### Machine-Learning Algorithms:
   - <a href="https://en.wikipedia.org/wiki/Linear_regression">**MULTIPLE LINEAR REGRESSION**</a>
 
@@ -141,16 +141,16 @@
 
 
 ## Output Screen-shots:
-The Home page of the application that displays real time data of stock prices.
+The Home page of the application displays real-time data of stock prices.
 ![image](https://user-images.githubusercontent.com/76027425/179440522-674b6e07-31dc-422f-81e3-0e0c9c74c85a.png)
 
-To Predict stock price we move on to predicition page where we need to enter valid ticker value and number of days and click predict button.
+To predict the stock price, we move on to the prediction page where we need to enter a valid ticker value and the number of days, and click the predict button.
 ![image](https://user-images.githubusercontent.com/76027425/179440538-a7054ec1-ce3b-44b1-b55e-72bf7e23692c.png)
 
-This page displays the predicted stock price alsong with searched ticker details and also generating unique QR Code to view the predicted result.
+This page displays the predicted stock price along with searched ticker details and also generates a unique QR Code to view the predicted result.
 ![image](https://user-images.githubusercontent.com/76027425/179440583-dcb85f97-d358-42d7-a7b4-661461135efd.png)
 
-The Left Graph is the real time stock price of the searched ticker for past 1day & the Right Graph is the predicted stock price for the number of days searched.
+The Left Graph is the real-time stock price of the searched ticker for the past 1day & the Right Graph is the predicted stock price for the number of days searched.
 ![image](https://user-images.githubusercontent.com/76027425/179440591-06b8b095-d2c4-4df8-93d7-fe389b748470.png)
 
 The Ticker Info page displays the details of all the valid tickers accepted by the application.
